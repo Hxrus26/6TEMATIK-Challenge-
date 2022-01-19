@@ -6,3 +6,6 @@ Ennocé du challenge :
 - Posibilité de supprimer un vehicule ajouté
 - Site one page listant les vehicules avec systeme de pagination et au click afficher les informations complètes de celui-ci
 - Utiliser framework CSS ( au choix ) 
+
+
+Techno a utilsée : PHP avec framework Laravel
