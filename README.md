@@ -9,3 +9,8 @@ Ennocé du challenge :
 
 
 Techno a utilsée : PHP avec framework Laravel
+
+----------------
+
+Framework CSS utilisé : Bootstrap <br>
+Route accés panel admin : /admin/create
