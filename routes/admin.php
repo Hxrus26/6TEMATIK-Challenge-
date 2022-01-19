@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Admin Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index')->name('index');
+Route::get('/create', 'AdminController@create')->name('create');
+Route::get('/delete/{id}', 'AdminController@delete')->name('delete');
+Route::post('/create', 'AdminController@create_post')->name('create.post');
